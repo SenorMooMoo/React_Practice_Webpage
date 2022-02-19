@@ -1,4 +1,4 @@
 import React from "react";
-export function Main(){
+export default function Main(){
     return (<h1>Main content goes here</h1>)
 }
