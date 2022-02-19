@@ -17,6 +17,15 @@ body {
     background-color: var(--body-bg-color);
 }
 
+#react-body-img{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 25vh;
+    width: 200px;
+    z-index: -1;
+}
+
 #navbar{
     display: flex;
     align-items: center;
@@ -38,9 +47,32 @@ body {
     margin-right: 20px;
 }
 
+#main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em 1em 1em 4em;
+}
+#main-title{
+    letter-spacing: -0.05em;
+}
+#main-list{
+    font-size: 1.5rem;
+    margin-left: 2em;
+}
+#main-list > li{
+    padding: 10px;
+}
+
+#main-list > li::marker{
+    color: var(--nav-font-color);
+    font-size: 2rem;
+    padding: 10px;
+}
+
 #nav-name{
 }
 
 #container{
-
 }
